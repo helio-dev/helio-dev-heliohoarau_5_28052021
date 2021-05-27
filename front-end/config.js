@@ -1,4 +1,4 @@
-fetch ("http://localhost:3000/api/teddies")
+fetch (" http://localhost:3000/api/cameras")
     .then ((res)=>res.json()
     .then ((resultat)=>{
         let tableauElements = [];
@@ -11,6 +11,6 @@ fetch ("http://localhost:3000/api/teddies")
             tableauElements[tableauElements.length-1].onclick = () => console.log ("hello");
             tableauElements[tableauElements.length-1].textContent = cur.name;
             tableauElements[tableauElements.length-2].appendChild(tableauElements[tableauElements.length-1]);
-            
+
         }
     }))
