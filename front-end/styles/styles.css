@@ -1,0 +1,119 @@
+body{
+    text-decoration: none;
+    background:linear-gradient(174deg, #a900d4, #d2822e);
+}
+header{
+position: fixed;
+width: 100%;
+margin: auto;
+top: 0;
+left: 0;
+background-color: #f3e9f1;
+
+display: flex;
+justify-content: center;
+flex-direction: row;
+justify-content: center;
+
+}
+.nav__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+.menu__submenu{
+    color: black;
+    font-size: large;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;;
+    background-color: rgb(196, 13, 196);
+}
+.logoOrinoco{
+    height: 120px;
+    width: 30%;
+    margin: auto;
+
+}
+
+.article{
+    margin-top: 140px;
+    width: 95%;
+    left: 5%;
+  
+}
+
+.article__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+a{
+  width: 45%;
+ 
+}
+.article__item{
+    border-radius: 10px;
+    list-style-type: none;
+    width: 80%;
+    
+}
+figure{
+    background:linear-gradient(174deg, #af46c9, #daa46a);
+    background-color:#af46c9;
+    width: 100%;
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 20px;
+    height: 25rem;
+    
+}
+figcaption{
+    background-color:#af46c9;
+    padding: 8px;
+   
+    border: 3px solid #ffffff;
+    flex: 2;
+    text-decoration: none;
+    height: 30%;
+}
+.article__image{
+    width: 80%;
+    object-fit:contain;
+    opacity: 80%;
+    height:50%;
+    margin: 10px;
+}
+.article__info{
+    background: #af46c9;
+    border: 3px solid rgb(255, 252, 254);
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    color: turquoise;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: underline;
+    height: 10%;
+}
+.article__description{
+    font-size: small;
+    color: wheat;
+}
+.starcontainer{
+    background-color: ;
+    width: 100%;
+    display: flex;
+}
+
+.etoile{
+    width: 18%;
+}
